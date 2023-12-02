@@ -21,7 +21,7 @@ public class Locators {
 
         driver.manage().window().maximize();
 
-        //locate the elemnt
+        //locate the element
         WebElement searchBoxWithID = driver.findElement(By.id("APjFqb"));
         WebElement searchBoxWithName = driver.findElement(By.name("q"));
         WebElement aboutLink = driver.findElement(By.linkText("About"));

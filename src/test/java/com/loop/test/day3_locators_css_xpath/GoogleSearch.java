@@ -20,8 +20,8 @@ public class GoogleSearch {
         WebDriverManager.chromedriver().setup();
 
         //create driver object
-        // Webdriver -
-        // ChromeDriver =
+        // Webdriver - interface
+        // ChromeDriver = class
         WebDriver driver = new ChromeDriver();
 
         //navigate to google
