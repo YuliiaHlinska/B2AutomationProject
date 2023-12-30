@@ -11,6 +11,16 @@ public class T00_login_docuport extends TestBase {
     public void test_login_docuport() throws InterruptedException {
         DocuportUtils.login(driver, DocuportContains.CLIENT);
         DocuportUtils.logOut(driver);
+
+        DocuportUtils.login(driver, DocuportContains.ADVISOR);
+        DocuportUtils.logOut(driver);
+
+        DocuportUtils.login(driver, DocuportContains.EMPLOYEE);
+        DocuportUtils.logOut(driver);
+
+        DocuportUtils.login(driver, DocuportContains.SUPERVISOR);
+        DocuportUtils.logOut(driver);
+
     }
 
 

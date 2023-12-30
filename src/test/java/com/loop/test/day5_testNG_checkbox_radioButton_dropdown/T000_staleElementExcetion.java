@@ -29,6 +29,7 @@ public class T000_staleElementExcetion {
         WebElement addButton = driver.findElement(By.xpath("//button[contains(text(),'Add Element')]"));
         addButton.click();
 
+        // 4. Verify “Delete” button is displayed after clicking.
         WebElement deleteButton = driver.findElement(By.xpath("//button[contains(text(),'Delete')]"));
         if(deleteButton.isDisplayed()){
             System.out.println("Delete button is displayed");

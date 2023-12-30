@@ -44,6 +44,16 @@ public class T00_checkbox {
             System.out.println("Checkbox is not selected");
         }
 
+        // 3. Confirm checkbox #2 is SELECTED by default.
+        WebElement checkBox2 = driver.findElement(By.xpath("//input/following-sibling::text()[contains(., 'checkbox 2')]/preceding-sibling::input/following-sibling::input"));
+        if(checkBox2.isSelected()){
+            System.out.println("Checkbox 2 is selected");
+        }else{
+            System.out.println("Checkbox 2 is not selected");
+        }
+
+
+
 
 
 
