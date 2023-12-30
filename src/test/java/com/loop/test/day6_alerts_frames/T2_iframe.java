@@ -28,9 +28,10 @@ public class T2_iframe extends TestBase {
     //by web element
 //    WebElement iframe = driver.findElement(By.xpath("//iframe[@id='mce_0_ifr']"));
 //    driver.switchTo().frame(iframe);
+//    driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@id='mce_0_ifr']"))); the same like 29
 
     //by Id
-//    driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@id='mce_0_ifr']")));
+
 //    driver.switchTo().frame("mce_0_ifr");
 
     //Byindex

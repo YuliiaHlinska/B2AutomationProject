@@ -17,7 +17,7 @@ public class T1_testNG_intro {
 
     @BeforeMethod
     public void setUpMethod(){
-        System.out.println("Before class is running");
+        System.out.println("Before method is running");
     }
     @AfterMethod
     public  void tearDownMethod (){
