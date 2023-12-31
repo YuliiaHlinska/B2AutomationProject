@@ -1,4 +1,4 @@
-package com.loop.test.day_10_upload_download;
+package com.loop.test.day10_upload_download;
 
 import com.loop.test.utilities.ConfigurationReader;
 import com.loop.test.utilities.Driver;

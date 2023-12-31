@@ -1,10 +1,9 @@
-package com.loop.test.day_10_upload_download;
+package com.loop.test.day10_upload_download;
 
 import com.loop.test.utilities.ConfigurationReader;
 import com.loop.test.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
